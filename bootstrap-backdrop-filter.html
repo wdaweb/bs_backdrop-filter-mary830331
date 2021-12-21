@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <style>
+    #bg {
+      background: url(./12Z_2102.w026.n002.148B.p1.148.jpg)no-repeat center/cover;
+    }
+
+    * {
+      margin: 0;
+    }
+
+    .col-12 {
+      height: 100%;
+      flex-basis: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="bg" class=" container-fluid d-flex p-5 vh-100 overflow-auto flex-column flex-md-row">
+    <div id="box" class="row flex-md-nowrap text-white text-center ">
+      <div class=" border-white d-flex align-items-center col-12 col-md-2 h1 ">backdrop-filter效果</div>
+      <div class="rounded-start border border-white col-12 col-md-2 ">backdrop-filter: none
+      </div>
+      <div class="border border-white col-12 col-md-2" style="backdrop-filter: grayscale(1)">backdrop-filter:
+        grayscale(1)</div>
+      <div class="border border-white col-12 col-md-2" style="backdrop-filter: brightness(1.5)">backdrop-filter:
+        brightness(1.5)</div>
+      <div class="border border-white col-12 col-md-2" style="backdrop-filter: blur(5px)">backdrop-filter: blur(5px)
+      </div>
+      <div class="border border-white col-12 col-md-2" style="backdrop-filter: contrast(0.8)">backdrop-filter:
+        contrast(0.8)</div>
+      <div class="border border-white col-12 col-md-2" style="backdrop-filter: invert(0.7)">backdrop-filter: invert(0.7)
+      </div>
+      <div class="border border-white col-12 col-md-2" style="backdrop-filter: opacity(0.4)">backdrop-filter:
+        opacity(0.4)</div>
+      <div class="border border-white col-12 col-md-2" style="backdrop-filter: sepia(0.4)">backdrop-filter: sepia(0.4)
+      </div>
+      <div class="border border-white col-12 col-md-2" style="backdrop-filter: saturate(1.8)">backdrop-filter:
+        saturate(1.8)</div>
+      <div class="rounded-end border border-white col-12 col-md-2" style="backdrop-filter: hue-rotate(120deg)">
+        backdrop-filter: hue-rotate(120deg)</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
